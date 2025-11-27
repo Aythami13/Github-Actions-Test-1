@@ -3,7 +3,7 @@ on:
   push:
   workflow_dispatch:
 
-job:
+jobs:
   Hello-job:
     runs-on: ubuntu-latest
     steps:
